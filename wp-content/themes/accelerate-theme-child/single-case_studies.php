@@ -33,7 +33,7 @@ get_header(); ?>
 
 					<h2><?php the_title(); ?></h2>
 					<h4><?php echo $services; ?></h4>
-					<h4>Client: <? php echo $client; ?></h4>
+					<h4>Client: <?php echo $client; ?></h4>
 						
 					<?php the_content(); ?>
 
