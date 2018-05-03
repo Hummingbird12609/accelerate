@@ -20,7 +20,7 @@
 				</div>
 
 				<nav class="social-media-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'social-media', '<span class="screen-reader-text">', 'menu_class' => 'social-media-menu' ) ); ?>
 				</nav>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
