@@ -147,5 +147,90 @@ li.menu-item{
 /* Accessibility */
 
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Contact form */
+
+/* remove field required */
+
+.nf-form-fields-required {
+	display: none;
+}
+
+/* remove asterisk symbol */
+span.ninja-forms-req-symbol {
+  display: none;
+}
+
+/* move send button */
+div#nf-field-4-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* change color of send button */
+input[type="button"], input[type="submit"] {
+  background: #45ac9d;
+}
+
+/* narrow page */
+.contact-page .site-content {
+	width: 50%;
+	margin-left: 300px;
+}
+
+/* adjust field label font size */
+.nf-field-label {
+	font-size: 80%;
+}
+
+/* About page */
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	height: 40%;
+	margin: 0 0 80px;
+    padding: 100px 0;
+	text-align: center;
+}
+.hero-text {
+	width:65%;
+	text-align: center;
+	color: #fff;
+    font-family: 'Open Sans';
+    font-weight: bold;
+	padding-left: 300px;
+	height: 40%;
+}
+.about-us {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.about-headline h4 {
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+	    
+}
+
+.about-headline p {
+	text-align: center;
+	justify-content: center;
+}
+
+	
+.about-services {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.about-services: nth-child(even){
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row-reverse;
+	
 }
