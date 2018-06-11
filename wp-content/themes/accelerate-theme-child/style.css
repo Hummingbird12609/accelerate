@@ -225,12 +225,56 @@ input[type="button"], input[type="submit"] {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.about-services: nth-child(even){
+.about-services figure img {
+	min-width: 170px;
+}
+
+.our-services article:nth-child(even) {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;	
+		
+}
+.about-services .individual-services {
+	max-width: 700px;
+}
+
+.about-us .our-services {
+	padding-bottom: 100px;
+}
+
+.our-services article:nth-child(even) img {
+	padding-left: 40px;
+}
+
+.our-services article:nth-child(odd) img {
+	padding-right: 40px;
+}
+
+.contact-us {
+	border-top: 1px solid #dddddd;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-us a {	
+	background: #45ac9d;
+	color: white;
+	padding: 15px 75px;
+	margin-left: 40px;
+	font-weight: bold;
 	
 }
+	
+.contact-us h2 {
+	padding: 20px;
+}
+	

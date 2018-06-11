@@ -32,8 +32,7 @@ get_header(); ?>
 
 			<div class="about-headline">
 				<h4>Our services</h4>
-					<p>We take pride in our clients and the content we create for them.</p>
-					<p>Here's a brief overview of our offered services.</p>
+					<p>We take pride in our clients and the content we create for them. <br> Here's a brief overview of our offered services.</p>
 			</div>
 				
 			
@@ -71,6 +70,13 @@ get_header(); ?>
 				<?php wp_reset_query(); ?>
 			
 			</div>	
+			
+			
+			<div class="contact-us">
+				<h2>Interested in working with us?</h2>
+					<a href="#">Contact Us</a>
+			</div>
+			   
 			
 		</section>
 		
