@@ -21,7 +21,9 @@ get_header(); ?>
 			<article class="container-404">
 			
               <h2 class="header-404">Take a wrong turn?</h2>
-              <img src="http://localhost/accelerate/wp-content/uploads/2018/07/404-image.jpg"> </img>
+			  <figure class="404-image">
+              <img src="http://localhost/accelerate/wp-content/uploads/2018/08/404-image.jpg"> </img>
+			  </figure>
              <p class="message-404">We'll help you get back on track. Feel free to check out our Blog or our featured work</p>
 			 
 			 </article>

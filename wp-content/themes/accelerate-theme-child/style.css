@@ -32,8 +32,17 @@ Text Domain:  accelerate-theme-child
    
 }
 
+.recent-posts {
+
+	float:left;
+	margin-left: 225px;
+	width: 425px;
+	padding-bottom: 50px;
+
+}
+	
 .blog-post {
-	width: 50%;
+	width: 100%;
 	float: left;
 	margin-bottom: 2em;
 }
@@ -59,14 +68,15 @@ Text Domain:  accelerate-theme-child
 /* Home page Twitter module */
 
 
-#secondary {
-	max-width: 400px;
-	margin-right: 100px;
+.widget.PI_SimpleTwitterTweets {
+	margin-right: 0;
+	margin-left: 125px;
 	float: left;
-	margin-bottom: 50px;
-	padding: 0 0;
-	margin-left: 50px;
-	
+}
+
+.widget-area {
+	float: left;
+	width: 350px;
 }
 
 h3.widget-title  {
@@ -80,32 +90,27 @@ h3.widget-title  {
 ul.tweets {
 	list-style-type: none;
 	margin-left: 0;
-	font-family: 'Montserrat';
-	font-size: 18px;
-	margin-top: 95px;
+	font-family: 'Open Sans';
+	font-size: 17px;
+	margin-top: 110px;
 	margin-bottom: 75px;
 }
 
-li.tweets{
 
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: 28.5pt;
-	
-
-}
 
 .follow-us{
 
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
-	margin-left: 0;
-	margin-top: 50px;
+	margin-left: 120px;
+	margin-top: 75px;
 
 }
+
+
 
 
 /* Case studies */
@@ -134,7 +139,7 @@ div.case-study-images img {
 
 /* Featured work */
 
-.site-content {
+.featured-work {
 	width: 100%;	
 	display: block;
 	  
@@ -312,7 +317,8 @@ input[type="button"], input[type="submit"] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
+	padding-top: 10px;
+	text-align: center;
 }
 
 .contact-us a {	
@@ -320,6 +326,7 @@ input[type="button"], input[type="submit"] {
 	color: white;
 	padding: 15px 75px;
 	margin-left: 40px;
+	margin-top:45px;
 	font-weight: bold;
 	
 }
@@ -330,14 +337,35 @@ input[type="button"], input[type="submit"] {
 
 /* 404 page */
 
+.container-404{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 100%;
+	margin-top: 40px;
+	flex-wrap: wrap;
+}
+	
+
 .header-404 {
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	
 }
+
+.image-404 img {
+	max-width: 100%;
+	margin-top: 100px;
+	padding-top: 40px;
+	}	
+	
 
 .message-404 {
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
+	margin-left: 200px;
 }
 
 .single .site-content {
@@ -349,3 +377,14 @@ input[type="button"], input[type="submit"] {
        flex-flow: row nowrap;
        justify-content: space-between;
    }
+   
+  /* Newsletter */
+  
+  .mc4wp-form input[type="submit"]{
+	  text-align: center;
+	  color: #FFFFFF;
+	  background-color: #45ac9d;
+	  font-family: 'Open Sans';
+	  font-weight: bold;
+	  padding: 1em 4.75em;
+  }
